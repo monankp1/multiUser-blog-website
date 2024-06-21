@@ -1,0 +1,79 @@
+.header {
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+}
+
+.logo {
+    position: relative;
+    left: 5vw;
+}
+
+.loginButton {
+    color: white;
+    background-color: rgb(234, 107, 27);
+    width: 6rem;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    position: relative;
+    right: 5vw;
+}
+
+.logoutButton {
+    color: rgb(234, 107, 27);
+    background-color: white;
+    width: 6rem;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    position: relative;
+    right: 5vw;
+}
+
+.addUser {
+    color: white;
+    background-color: rgb(234, 107, 27);
+    margin-right: 10px;
+    width: 7rem;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    position: relative;
+    right: 5vw;
+}
+
+.addBlog {
+    color: white;
+    background-color: rgb(234, 107, 27);
+    margin-right: 10px;
+    width: 7rem;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    position: relative;
+    right: 5vw;
+}
+
+@media screen and (max-width: 768px) {
+
+    .loginButton,
+    .logoutButton,
+    .addBlog,
+    .addUser {
+        width: 3.5rem;
+        height: 2rem;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,12 @@
+.container {
+    height: 10vh;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    margin: 0 3rem;
+}

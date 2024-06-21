@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "userName": "Monank",
+      "password": "123456",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "userName": "Dev",
+      "password": "dev1234",
+      "role": "author"
+    },
+    {
+      "id": "a0a2",
+      "userName": "Monank",
+      "password": "qwerty",
+      "role": "editor"
+    },
+    {
+      "id": "f08e",
+      "userName": "Manali",
+      "password": "manali",
+      "role": "author"
+    },
+    {
+      "id": "b5c9",
+      "userName": "Heta",
+      "password": "123",
+      "role": "author"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "title": "M.S. Dhoni",
+      "content": "M.S. Dhoni AKA Thala is my favourite cricket player.",
+      "author": "Monank",
+      "date": "2022-01-01",
+      "image": "https://c.ndtvimg.com/2021-11/o66r0bb8_ms-dhoni-ipl_625x300_20_November_21.jpg?im=FeatureCrop,algorithm=dnn,width=806,height=605"
+    },
+    {
+      "id": "2",
+      "title": "Sachin Tendulkar",
+      "content": "Sachin Tendulkar, the Master Blaster, is an inspiration to millions.",
+      "author": "Monank",
+      "date": "2022-01-02",
+      "image": "https://wamu.org/wp-content/uploads/2013/10/10/ap692633499596_wide-fac8117c3eadfde4db40aa679720d75651223362-1500x843.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Virat Kohli",
+      "content": "Virat Kohli's aggressive playing style and consistency make him best.",
+      "author": "Dev",
+      "date": "2022-01-03",
+      "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2022-09/08/full/1662657385-7641.jpg"
+    },
+    {
+      "id": "4",
+      "title": "AB de Villiers",
+      "content": "AB de Villiers, Mr. 360, is known for his innovative shots.",
+      "author": "Monank",
+      "date": "2022-01-04",
+      "image": "https://images.indianexpress.com/2019/12/ab-de-villiers-1200.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Brian Lara",
+      "content": "Brian Lara's record-breaking innings are a testament to his skill.",
+      "author": "Monank",
+      "date": "2022-01-05",
+      "image": "https://engineersblog.net/wp-content/uploads/2024/02/Biography-of-Famous-Cricket-Player-Brian-Lara.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Ricky Ponting",
+      "content": "Ricky Ponting's leadership and batting prowess are unmatched.",
+      "author": "Dev",
+      "date": "2022-01-06",
+      "image": "https://www.livemint.com/lm-img/img/2023/06/01/1600x900/CRICKET-TEST-IND-AUS-PONTING-0_1685603556779_1685603582483.JPG"
+    },
+    {
+      "id": "7",
+      "title": "Jacques Kallis",
+      "content": "Jacques Kallis is one of the greatest all-rounders the game has seen.",
+      "author": "Monank",
+      "date": "2022-01-07",
+      "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2013/12/28/15/Jacques-Kallis.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Sikhar dhawan",
+      "content": "Sikhar dhawan is a indian cricketer. With superb batsman.",
+      "author": "Manali",
+      "date": "2022-01-08",
+      "image": "d"
+    },
+    {
+      "id": "9",
+      "title": "Shane Warne",
+      "content": "Shane Warne's leg-spin and charisma made him a cricket legend.",
+      "author": "Monank",
+      "date": "2022-01-09",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkPWBrLskP57TsuqYNWd43MhKm-AL0eWC29w&s"
+    },
+    {
+      "id": "10",
+      "title": "Kumar Sangakkara",
+      "content": "Kumar Sangakkara's elegance and consistency made him a top batsman.",
+      "author": "Manali",
+      "date": "2022-01-10",
+      "image": "https://s.ndtvimg.com/images/content/2015/mar/806/kumar-sangakkara-vs-scotland.jpg"
+    }
+  ]
+}

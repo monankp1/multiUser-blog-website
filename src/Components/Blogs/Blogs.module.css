@@ -1,0 +1,61 @@
+.blogs {
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin: 2rem; */
+}
+
+.card {
+    width: 20vw;
+    height: auto;
+    padding: 10px;
+    margin: 1rem;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+img {
+    width: 10vw;
+    max-height: 8vh;
+    height: auto;
+}
+
+.cardFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.editButton,
+.deleteButton {
+    color: white;
+    background-color: rgb(234, 107, 27);
+    margin-right: 10px;
+    width: 4rem;
+    height: 2rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+        max-width: 100%;
+        margin: 0.5rem;
+    }
+
+    img {
+        width: auto;
+        height: auto;
+    }
+}
