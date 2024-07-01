@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import styles from './Login.module.css';
 import { useDispatch, useSelector } from 'react-redux';
+import { Button } from 'antd';
 
 
 
 
 const Login = ({ show, handleClose }) => {
     const [loginDetails, setLoginDetails] = useState({ userName: '', password: '' });
-    // const [error, setError] = useState('');
 
     const dispatch = useDispatch();
 
-    
+
 
     if (!show) {
         return null;
@@ -23,21 +23,6 @@ const Login = ({ show, handleClose }) => {
     };
 
 
-    // const handleSubmit = (event) => {
-    //     event.preventDefault();
-    //     const user = users.find(
-    //         (u) => u.userName === loginDetails.userName && u.password === loginDetails.password
-    //     );
-    //     if (user) {
-    //         localStorage.setItem(
-    //             'user', JSON.stringify({ userName: user.userName, role: user.role })
-    //         );
-    //         handleClose();
-    //     } else {
-    //         setError('Login failed. Please try again.');
-    //     }
-    //     setLoginDetails({ userName: '', password: '' });
-    // };
 
 
 
@@ -89,7 +74,8 @@ const Login = ({ show, handleClose }) => {
                             </label>
                         </div>
                         <div className={styles.loginBtn}>
-                            <button type="submit" className={styles.submitButton}>Login</button>
+                            {/* <button type="submit" className={styles.submitButton}>Login</button> */}
+                            <Button htmlType='submit' type='primary' style={{ color: 'black' }}>Login</Button>
                         </div>
                     </form>
                 </div>

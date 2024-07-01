@@ -1,6 +1,7 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from './Header.module.css';
 import Logo from '../Logo/Logo';
+import ButtonComponent from '../ButtonComponent';
 
 const Header = ({ isLoggedIn, handleLogin, handleLogout, userRole, handleAddUser, handleAddBlog }) => {
 
@@ -10,14 +11,14 @@ const Header = ({ isLoggedIn, handleLogin, handleLogout, userRole, handleAddUser
             <div className={styles.logo}>
                 <Logo />
             </div>
-
+            
             <div>
-                {userRole && <button className={styles.addBlog} onClick={handleAddBlog}>AddBlog</button>}
-                {userRole === 'admin' && <button className={styles.addUser} onClick={handleAddUser}>AddUser</button>}
+                {userRole &&  <ButtonComponent name='AddBlog' onClick={handleAddBlog} className='addBlog' />}
+                {userRole === 'admin' && <ButtonComponent name='AddUser' onClick={handleAddUser}  className='addUser' />}
                 {isLoggedIn ? (
-                    <button className={styles.logoutButton} onClick={handleLogout}>Logout</button>
+                    <ButtonComponent name='Logout' onClick={handleLogout} className='logoutButton' />
                 ) : (
-                    <button className={styles.loginButton} onClick={handleLogin}>Login</button>
+                    <ButtonComponent name='Login' onClick={handleLogin} className='loginButton' />
                 )}
             </div>
         </header>
